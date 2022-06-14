@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+#navbar {
+background-color: white;
+min-height: 5vh;
+min-width: fit-content;
+font-family: sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.navtext {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    display: flex;
+    }
