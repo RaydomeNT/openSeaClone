@@ -8,7 +8,8 @@ min-width: fit-content;
 font-family: sans-serif;
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+flex-wrap: nowrap;
+justify-content: space-between;
 align-items: center;
 }
 
@@ -20,22 +21,49 @@ align-items: center;
 
 #search {
     background-image: url('https://www.shareicon.net/data/2016/06/17/595474_search_512x512.png');
-    background-size: contain;
+    background-size: 20px;
     background-repeat: no-repeat;
     background-position: left center;
+    background-position-x: 2%;
+    border: 1px solid rgb(222, 218, 218);
+    justify-items: center;
 }
 
 .sb {
+    text-indent: 40px;
     display: flex;
-    min-width:400px;
+    width:800px;
     font-size: large;
     padding: 10px;
-    text-align: center;
+    text-align: start;
     border-radius: 10px;
 }
 
 .navtext {
     font-size: 15px;
     color: rgb(59, 59, 59);
+    text-decoration: none;
     display: flex;
+    justify-content: space-between;
     }
+
+.awIcon {
+    display: flex;
+    width: 25px;
+    justify-items: end;
+    justify-content: space-between;
+}
+
+#bg-img {
+    background-image: url(img/NT\ bg\ img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img.bg-img {
+    opacity: 0.1;
+    justify-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 800px;
+}
