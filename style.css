@@ -5,7 +5,8 @@ body {
 background-color: white;
 min-height: 5vh;
 min-width: fit-content;
-font-family: sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
@@ -54,7 +55,38 @@ align-items: center;
     justify-content: space-between;
 }
 
-#bg-img {
+.box {
+    background-image: url(img/NT\ bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% fit-content;
+    height: 800px;
+    /* margin: 0;
+    border: 0; */
+}
+
+.feat-head {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 200px 0 0 200px;
+    max-width: 800px;
+}
+
+.feat-sub {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+    font-weight: 400;
+    max-width: 300px;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+/* #bg-img {
     background-image: url(img/NT\ bg\ img.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,4 +98,5 @@ img.bg-img {
     margin-top: 25px;
     width: 100%;
     height: 800px;
-}
+} */
+
