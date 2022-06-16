@@ -197,3 +197,10 @@ h1, h2 {
     color: blue;
     border-color: white;
 }
+
+.collections {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 30px;
+}
