@@ -195,7 +195,7 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: blue;
-    border-color: white;
+    border: none;
 }
 
 .collections {
@@ -203,4 +203,43 @@ h1, h2 {
     flex-wrap: nowrap;
     justify-content: center;
     padding-top: 30px;
+}
+
+.rankings {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 32px;
+}
+
+.rank-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.cat-drop {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cat {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: blue;
+    border: none; 
 }
